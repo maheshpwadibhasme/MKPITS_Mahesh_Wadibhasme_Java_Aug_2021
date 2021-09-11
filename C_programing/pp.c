@@ -1,3 +1,4 @@
+#include<stdio.h>
 int main(){
 	int i;
 	int num[5];
@@ -6,6 +7,6 @@ int main(){
 		scanf("%d",&num[i]);
 	} 
 	for(i=0;i<5;i++){
-		printf("num[%d]=%d",i,num[i]);
+		printf("\n num[%d]=%d",i,num[i]);
 	}
 }
