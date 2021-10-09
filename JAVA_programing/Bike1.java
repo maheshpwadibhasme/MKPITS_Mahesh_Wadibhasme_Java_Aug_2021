@@ -1,8 +1,14 @@
-class Bike1{
-	Bike1(){ //this is a default constructor (created here)
-		System.out.println("Bike Is Created");
+class vehical{
+	void run(){
+		System.out.println("vehical id running");
+	}
+}
+class Bike1 extends vehical{
+	void run(){
+		System.out.println("Bike is running sefely");
 	}
 	public static void main(String[] args){
-		Bike1 b=new Bike1();//calling default constructor
+		Bike1 obj=new Bike1();
+		obj.run();
 	}
 }
