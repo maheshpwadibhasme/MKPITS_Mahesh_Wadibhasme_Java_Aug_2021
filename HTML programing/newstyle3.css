@@ -1,0 +1,21 @@
+div.ram{
+	
+	height:150px;
+	width:150px;
+	float:left;
+	margin:20px;
+	border:brown solid;
+}
+
+div#first{
+	background-color:lightblue;
+}
+div#second{
+	background-color:green;
+}
+div#third{
+	background-color:red;
+}
+div#fourth{
+	background-color:blue;
+}
