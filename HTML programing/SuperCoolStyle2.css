@@ -1,0 +1,58 @@
+.one ul{
+	margin:0px;
+	padding:0px;
+	height:50px;
+	line-height:50px;	
+	background-color:black;
+	
+}
+
+.one li{
+	float:right;
+	padding:0px 28px;
+	border-left:1px tomato solid;
+	
+}
+
+.one a{
+	color:white;
+	display:block;
+	text-decoration:none;
+}
+.one a:hover{
+	background-color:red;
+}
+
+.table1 table{
+	margin:0px;
+	padding:25px;
+	color:white;
+	background-color:pink;
+}
+.two{
+	text-align:center;
+	background-color: yellow;
+}
+.two ul{
+	display: inline-table;
+}
+.two li{
+	display: inline;
+	padding: 0px 28px;
+}
+.two a{
+	color:black;
+	text-decoration:none;
+}
+.two a:hover{
+	background-color: red
+}
+.table2 table{
+	margin:-0px;
+	padding:250px;
+	color:green;
+	background-color:lightblue;
+}
+.table2 th{
+	font-size: 45px;
+}

@@ -1,0 +1,69 @@
+div.sec1
+{
+margin:0px;
+     padding:0px;
+     background-color:Black;
+     height:60px;
+    line-height:50px;
+     width:100%;
+    font-size:20px;
+   
+    
+}
+li
+{
+
+float:left;
+padding 0px 28px;
+
+}
+
+a
+{
+text-decoration:none;
+}
+
+
+
+h1
+{
+     margin:0px;
+     padding:0px;
+     background-color:Salmon;
+     height:100px;
+    line-height:90px;
+     width:100%;
+    font-size:40px;
+    font-family: "Times New Roman", Times, serif;
+   
+}
+i
+{
+font-size:20px;
+}
+
+div:sec2
+{
+margin:0px;
+     padding:0px;
+     background-color:Yellow;
+     height:50px;
+    line-height:45px;
+     width:100%;
+    font-size:20px;
+   }
+
+
+div.sec3
+{
+margin:0px;
+       padding:0px;
+       background-color:Cyan;
+       height:550;
+      line-height:550px;
+       width:100%;
+    font-size:25px;
+    float:left;
+    font-family: "Times New Roman", Times, serif;
+ 
+}
