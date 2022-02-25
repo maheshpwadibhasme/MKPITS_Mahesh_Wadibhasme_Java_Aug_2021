@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="Emp" class="com.example.spring_dependencyinjection1.Employee">
+        <property name="id" value="22"></property>
+        <property name="name" value="mahesh"></property>
+    </bean>
+    <bean id="aob" class="com.example.spring_dependencyinjection1.Account">
+        <property name="eob" ref="Emp"></property>
+    </bean>
+</beans>
